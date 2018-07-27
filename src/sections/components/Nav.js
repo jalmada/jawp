@@ -9,7 +9,7 @@ class Nav extends React.Component {
         return (
             <nav id="nav" className="navbar navbar-dark bg-dark jawp-navbar">
                  <a className="navbar navbar-brand" href="#">
-                    <FontAwesomeIcon icon={faRocket} className='logo-nav' /> Just a Webpage
+                    <FontAwesomeIcon icon={faRocket} className='logo-nav' /> Just Another Webpage
                 </a>
                 <Social />
             </nav>
