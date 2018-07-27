@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.social-nav {
+  color: lightskyblue;
+}
+
+.social-nav a {
+  color: lightskyblue;
+}
+
+.logo-nav {
+  color: lightskyblue;
+}
+
+.jawp-navbar{
+  margin-bottom: 13px;
+}
