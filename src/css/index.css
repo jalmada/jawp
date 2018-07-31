@@ -4,6 +4,19 @@ body {
   font-family: sans-serif;
 }
 
+img {
+  display: inline;
+}
+
+.switch-wrapper {
+  position: relative;
+}
+ 
+.switch-wrapper > div {
+  position: absolute;
+  width: 100%;
+}
+
 .social-nav {
   color: lightskyblue;
 }
@@ -18,4 +31,32 @@ body {
 
 .jawp-navbar{
   margin-bottom: 13px;
+}
+
+.jawp-menu{
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.jawp-content{
+  width: 100%;
+}
+
+.jawp-home{
+  padding: 34px;
+  width: 100%;
+  text-align: center;
+}
+
+.jawp-frankie{
+  height: 351px;
+  width: 351px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 80%;
+  display: inline-block;
+}
+
+.jawp-hello{
+  padding: 21px;
 }

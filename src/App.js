@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import Dashboard from './sections/Dashboard.js';
 import { BrowserRouter } from 'react-router-dom';
 import './css/App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Dashboard />
+        <Dashboard /> 
       </BrowserRouter>
     );
   }
